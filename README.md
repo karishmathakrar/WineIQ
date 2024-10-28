@@ -52,24 +52,35 @@ This project aims to predict the quality of Portuguese "Vinho Verde" red wines b
    ```bash
    git clone https://github.com/karishmathakrar/WineIQ.git
    cd WineIQ
+   ```
 
-2. Create and activate a virtual environment (optional but recommended):
+2. **Create and activate a virtual environment** (optional but recommended):
 
-python -m venv .venv
-On Windows
-.venv\Scripts\activate
-On macOS/Linux
-source .venv/bin/activate
+   ```bash
+   python -m venv .venv
+   ```
+   On Windows:
+   ```bash
+   .venv\Scripts\activate
+   ```
+   On macOS/Linux:
+   ```bash
+   source .venv/bin/activate
+   ```
 
-3. Install required packages:
-pip install -r requirements.txt
+3. **Install required packages**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4. Launch Jupyter Notebook:
-jupyter notebook A5_final.ipynb
+4. **Launch Jupyter Notebook**:
+   ```bash
+   jupyter notebook A5_final.ipynb
+   ```
 
 ## Usage
-Run the cells in A5_final.ipynb sequentially to reproduce the analysis.
-Modify parameters or models as desired to experiment with different configurations.
+- Run the cells in `A5_final.ipynb` sequentially to reproduce the analysis.
+- Modify parameters or models as desired to experiment with different configurations.
 
 ## Citation
 Please include this citation if you plan to use this dataset:
