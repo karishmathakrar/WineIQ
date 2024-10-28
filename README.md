@@ -56,9 +56,9 @@ This project aims to predict the quality of Portuguese "Vinho Verde" red wines b
 2. Create and activate a virtual environment (optional but recommended):
 
 python -m venv .venv
-# On Windows
+On Windows
 .venv\Scripts\activate
-# On macOS/Linux
+On macOS/Linux
 source .venv/bin/activate
 
 3. Install required packages:
@@ -67,14 +67,15 @@ pip install -r requirements.txt
 4. Launch Jupyter Notebook:
 jupyter notebook A5_final.ipynb
 
-Usage
+## Usage
 Run the cells in A5_final.ipynb sequentially to reproduce the analysis.
 Modify parameters or models as desired to experiment with different configurations.
-Citation
+
+## Citation
 Please include this citation if you plan to use this dataset:
 
 P. Cortez, A. Cerdeira, F. Almeida, T. Matos, and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
 
-Acknowledgments
-Dataset Source: UCI Machine Learning Repository and Kaggle
-Inspiration: To provide winemakers with a data-driven approach to assess wine quality based on chemical properties.
+## Acknowledgments
+- Dataset Source: UCI Machine Learning Repository and Kaggle
+- Inspiration: To provide winemakers with a data-driven approach to assess wine quality based on chemical properties.
